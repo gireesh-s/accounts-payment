@@ -1,0 +1,17 @@
+.nav-bar-main-container {
+    margin: 0;
+    border: 3px solid #C8B9AB;
+}
+.nav-bar-btn-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.nav-bar-btn-list li {
+    padding: 1rem 2rem;
+}
+@media (max-width: 375px) {
+    .nav-bar-main-container {
+        display: none;
+    }
+}

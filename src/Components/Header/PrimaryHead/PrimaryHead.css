@@ -1,0 +1,47 @@
+.pm-main-container {
+    padding: 10px 10rem; 
+    height: 121px; 
+    display: flex;
+    align-items: center;
+}
+.logo {
+    flex-grow: 1;
+}
+.search-container {
+    background-color: #2D5566; 
+    padding: 9px 13px; 
+    border-radius: 0 5px 5px 0;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-container {
+    display: flex;
+}
+.user-icon-img {
+    height: 23px;
+    width: 22px;
+}
+.menu-btn {
+    display: none;
+}
+.web-icon-btn {
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+.web-icon-container {
+    display: flex;
+}
+@media (max-width: 1330) {
+    .frm-cntrl {
+        display: none;
+    }
+}
+@media (max-width: 375px) {
+    .menu-btn {
+        display: block;
+    }
+}

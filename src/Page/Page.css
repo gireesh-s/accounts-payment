@@ -1,0 +1,31 @@
+.path--container {
+    padding: 10px 0;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.page-content-main-container {
+    display: flex;
+    width: 100%;
+}
+.menu-list-container {
+    width: 25%;
+    color: #63544F;
+    background-color: #F0F0F0;
+    padding: 17px 12px;
+}
+.menu-list-btn-list {
+    list-style-type: none;
+}
+.menu-single-btn {
+    padding: 7px;
+    cursor: pointer;
+}
+.menu-single-btn-selected {
+    padding: 7px;
+    cursor: default;
+    font-weight: bold;
+}
+.payment-info-main-container {
+    margin-left: 30px;
+    width: 100%;
+}
