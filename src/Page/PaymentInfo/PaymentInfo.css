@@ -42,4 +42,5 @@
 .modal-card-unselected {
     width: auto;
     height: 20px;
+    cursor: pointer;
 }
