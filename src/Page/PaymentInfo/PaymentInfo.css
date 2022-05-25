@@ -22,3 +22,24 @@
     display: block;
     width: 30%;
 }
+.modal-input-cvv {
+    margin-top: 1.5rem;
+    display: block;
+    width: 20%;
+}
+.modal-input-name {
+    margin-top: 1.5rem;
+    display: block;
+    width: 70%;
+}
+.modal-dt-cvv-con {
+    display: flex;
+}
+.modal-card-selected {
+    width: auto;
+    height: 25px;
+}
+.modal-card-unselected {
+    width: auto;
+    height: 20px;
+}
