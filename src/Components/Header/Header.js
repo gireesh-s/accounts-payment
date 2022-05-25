@@ -6,7 +6,7 @@ import SecondaryHeader from './SecondaryHeader/SecondaryHeader'
 const Header = () => {
   return (
     <div style={{}}>
-        {/* <SecondaryHeader/> */}
+        <SecondaryHeader/>
         <PrimaryHead/>
         <NavBar/>
     </div>
